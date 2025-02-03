@@ -5,12 +5,12 @@ Los datos para las tablas han sido generados por IA, por lo tanto no tienen cohe
 
 # Autores
 
-AdriKael 👌
-Aragorn7372 👍
-"Ariel" 🧜‍♀️
+AdriKael 👌<br>
+Aragorn7372 👍<br>
+"Ariel" 🧜‍♀️<br>
 
 # Reparto de tareas
 
-Aragorn7372 - Realiza 10 consultas para realizar entre todos y completara las 3 primeras.
-AdriKael - Realiza el README, la insercion de datos en las tablas y las consultas 4, 5 y 6.
-Ariel - Realiza las 4 ultimas consultas.
+Aragorn7372 - Realiza 10 consultas para realizar entre todos y completara las 3 primeras. <br>
+AdriKael - Realiza el README, la insercion de datos en las tablas y las consultas 4, 5 y 6. <br>
+Ariel - Realiza las 4 ultimas consultas. <br>
