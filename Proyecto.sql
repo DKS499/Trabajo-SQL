@@ -158,6 +158,7 @@ ALTER TABLE vuelos
 /* Insercion de datos */
 SET FOREIGN_KEY_CHECKS = 0;
 
+-- Tabla "azafatos"
 INSERT INTO azafatos (dni, sexo, edad) VALUES ('52115920r', 'M', '96');
 INSERT INTO azafatos (dni, sexo, edad) VALUES ('81882867D', 'H', '57');
 INSERT INTO azafatos (dni, sexo, edad) VALUES ('91346111b', 'M', '103');
@@ -174,6 +175,7 @@ INSERT INTO azafatos (dni, sexo, edad) VALUES ('83583042h', 'M', '45');
 INSERT INTO azafatos (dni, sexo, edad) VALUES ('83583042h', 'M', '33');
 INSERT INTO azafatos (dni, sexo, edad) VALUES ('81762715z', 'M', '41');
 
+-- Tabla "embarcar"
 INSERT INTO embarcar (código, dni) VALUES ('14', '722941118');
 INSERT INTO embarcar (código, dni) VALUES ('2', '304663965');
 INSERT INTO embarcar (código, dni) VALUES ('4', '811245115');
