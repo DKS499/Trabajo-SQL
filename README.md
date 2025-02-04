@@ -7,10 +7,10 @@ Los datos para las tablas han sido generados por IA, por lo tanto no tienen cohe
 
 AdriKael 👌<br>
 Aragorn7372 👍<br>
-"Ariel" 🧜‍♀️<br>
+BKS499 😏<br>
 
 # Reparto de tareas
 
-Aragorn7372 - Realiza 10 consultas para realizar entre todos y completara las 3 primeras. <br>
-AdriKael - Realiza el README, la insercion de datos en las tablas y las consultas 4, 5 y 6. <br>
+Victor - Realiza 10 consultas para realizar entre todos y completara las 3 primeras. <br>
+Adri - Realiza el README, la insercion de datos en las tablas y las consultas 4, 5 y 6. <br>
 Ariel - Realiza las 4 ultimas consultas. <br>
