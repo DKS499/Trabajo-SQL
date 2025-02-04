@@ -1,10 +1,20 @@
 USE aeropuerto;
 -- selecciona el dni de los pasajeros que vuelan con el empleado El Richarz - Victor
-
+SELECT dni FROM pasajeros WHERE dni IN(
+    SELECT dni from embarcar where código IN(
+        SELECT código FROM vuelos WHERE código IN(
+            SELECT código FROM tiene WHERE dni IN(
+                SELECT dni FROM empleados WHERE dni LIKE '76200302o'
+                )
+            )
+        )
+    )
+GROUP BY dni;
 -- selecciona los nombres de los pilotos que han tenido como copiloto a Matfied - Victor
-
+SELECT  CONCAT(nombre,' ',apellidos) FROM empleados e JOIN piloto on e.dni = piloto.dni
+                                     WHERE dni_copiloto LIKE '81882867D';
 -- selecciona toda la informacion de los vuelos no internacionales - Victor
-
+SELECT * FROM vuelos WHERE tipo LIKE  'Nacional';
 -- cuenta el total de dinero gastado en los sueldos anualmente - Adri
 SELECT SUM(salario) AS Gasto_anual
 FROM empleados;
