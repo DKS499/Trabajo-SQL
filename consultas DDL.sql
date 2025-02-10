@@ -17,9 +17,20 @@ SELECT MAX(salario) AS Empleado_Mejor_Pagado
 FROM empleados;
 
 -- selecciona los empleados con sueldos mayores a 48000 - Ariel
+SELECT *
+FROM empleados
+WHERE salario > 48000;
 
--- cuenta cuantos pilotos hay en la plantilla -Ariel
+-- cuenta cuantos pilotos hay en la plantilla - Ariel
+SELECT COUNT(*) AS Total_Pilotos
+FROM piloto;
 
--- selecciona a todos los empleados que tengan mas de seis meses de antigüedad - Ariel
+-- selecciona a todos los empleados que tengan más de seis meses de antigüedad - Ariel
+SELECT *
+FROM empleados
+WHERE DATEDIFF(CURDATE(), fecha_contratacion) > 180;
 
 -- Selecciona todos los azafatos que sean hombres - Ariel
+SELECT *
+FROM empleados
+WHERE puesto = 'Azafato' AND genero = 'Masculino';
