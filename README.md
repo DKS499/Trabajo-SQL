@@ -7,7 +7,7 @@ Los datos para las tablas han sido generados por IA, por lo tanto no tienen cohe
 
 AdriKael 👌<br>
 Aragorn7372 👍<br>
-BKS499 😏<br>
+DKS499 😏<br>
 
 # Reparto de tareas
 
